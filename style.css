@@ -92,10 +92,9 @@ html {
     background-color: #2e2e2e;
     width: 400px;
     margin: 60px;
-    padding: 50px;
+    padding: 30px;
     text-align: center;  
     font-size: 80px;
-    align: center;
-
+    align-items: center;
   }
   
