@@ -5,10 +5,35 @@
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    
+    <span style="font-size: 45px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
     <div id="DIV1">
 <img src="images/porsche-wide.png" alt="description" width="600px" height="150px">
-<div class=".container">
-<img src="Porsche-911-992-TurboS.jpg" alt="description" width="1200px" height="auto">
+<div class="container">
+<img src="Images/Porsche-911-992-TurboS.jpg" alt="description"  class="image" width="1200px" height="auto">
+<div class="middle">
+    <img src="Images/porsche-911-logo-freelogovectors.net_.png" width="50%" height="auto">
+    <div class="text">testicles</div>
+</div>
 </div>
 </div>
 </body>
