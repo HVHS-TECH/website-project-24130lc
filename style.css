@@ -81,4 +81,21 @@ html {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    background-color: #919191;
+  }
+
+  .flexbox div {
+    background-color: #2e2e2e;
+    width: 400px;
+    margin: 60px;
+    padding: 50px;
+    text-align: center;  
+    font-size: 80px;
+    align: center;
+
+  }
   
