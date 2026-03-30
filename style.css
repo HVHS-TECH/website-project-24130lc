@@ -41,8 +41,9 @@ html {
   }
 
   .text {
+    position: absolute;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 20px;
     padding: 100px;
     
   }
@@ -86,13 +87,14 @@ html {
     display: flex;
     flex-direction: row;
     background-color: #919191;
+    align-items: center;
   }
 
   .flexbox div {
     background-color: #2e2e2e;
     width: 400px;
-    margin: 60px;
-    padding: 30px;
+    margin: 75px;
+    padding: 45px;
     text-align: center;  
     font-size: 80px;
     align-items: center;
