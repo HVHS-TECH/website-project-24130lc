@@ -4,4 +4,30 @@
 <title>Linson's Porsche Website - History</title>
 <link href="history.css" rel="stylesheet">
 </head>
+<body>
+<head>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="#">Most popular Cars</a>
+        <a href="#">Contact</a>
+      </div>
+    
+    <span style="font-size: 45px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</head>
+
+<img src="images/porsche-wide.png" alt="description" width="600px" height="150px">
+
+</body>
